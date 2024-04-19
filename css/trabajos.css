@@ -1,0 +1,233 @@
+html {
+    font-size: 16px;
+    font-family: 'century gothic';
+    color: white;
+}
+
+.social {
+    display: flex;
+}
+
+.social .image-container {
+    width: 40%;
+    z-index: 10;
+}
+
+.social .image-container img {
+    width: 65em;
+    height: auto;
+}
+
+.social-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10rem 15rem 0 0 ;
+}
+
+.social-info h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.social-title-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.social-title-container img {
+    width: auto;
+    height: 2rem;
+}
+
+.social-row {
+    display: flex;
+    justify-content: space-evenly;
+    height: 15rem;
+    align-items: center;
+    padding-top: 2.5rem 0;
+}
+
+#star {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 10%;
+    padding-right: 1rem;
+}
+
+.social-perk {
+    width: 18rem;
+    height: 10rem;
+}
+
+strong {
+    color: #FCE140;
+}
+
+.social-info h3 {
+    color: #FCE140;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.social-info p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+.social-logo img {
+    width: 100%;
+    position: relative;
+    bottom: 12rem;
+}
+
+
+
+
+
+
+.design-title-container {
+    display: flex;
+}
+
+.design-title-container h2 {
+    font-size: 4rem;
+}
+
+.design-title-container img {
+    width: auto;
+    height: 2rem;
+}
+
+#star-2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 10%;
+    padding-right: 1rem;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+}
+
+.cover-container {
+    display: flex;
+    justify-content: center;
+    width: 35rem;
+    height: 55rem;
+    z-index: 10;
+}
+
+.design-logo img{
+    width: 100%;
+    position: relative;
+    bottom: 11rem;
+    padding-bottom: 20rem;
+}
+
+
+
+.audiovisual {
+    display: flex;
+    justify-content: start;
+    height: 50rem;
+}
+
+.audiovisual .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 100;
+}
+
+.audiovisual .column.three{
+    width: 40rem;
+}
+
+#img4 {
+    height: 35rem;
+    position: relative;
+    bottom: 2rem;
+    left: 8rem;
+}
+
+#img5 {
+    height: 28rem;
+    width: 45rem;
+    position: relative;
+    left: 8rem;
+}
+
+#img3 {
+    width: 30rem;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+}
+
+#img2 {
+    width: 18rem;
+    height: 25rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+#img1 {
+    width: 15rem;
+}
+
+.audiovisual .column.one {
+    align-items: start;
+    padding-left: 10rem;
+}
+
+.audiovisual .column.two {
+    align-items: end;
+}
+
+.audiovisual-title-container {
+    position: relative;
+    right: 10rem;
+    display: flex;
+    width: 100%;
+}
+
+.audiovisual-title-container h2 {
+    font-size: 3rem;
+}
+
+.audiovisual-title-container img {
+    height: 2rem;
+}
+
+#star-3 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 8%;
+    padding-right: 1rem;
+}
+
+.audiovisual-logo img{
+    width: 100%;
+    position: relative;
+    bottom: 3rem;
+    padding-bottom: 5rem;
+}
+
+footer .logo-enfoque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+footer .logo-enfoque img {
+    opacity: 0.5;
+    height: 10rem;
+}

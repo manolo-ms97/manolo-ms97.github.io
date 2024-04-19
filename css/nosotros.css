@@ -1,0 +1,64 @@
+html {
+    font-size: 16px;
+    font-family: 'century gothic';
+}
+
+main .lirae-logo {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .lirae-logo img {
+    height: 14rem;
+}
+
+main .lirae-values {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 27rem;
+}
+
+main .lirae-values h2 {
+    font-size: 3.5rem;
+    font-family: "century gothic";
+    color: #FCE140;
+    padding-bottom: 2.5rem;
+}
+
+main .lirae-values .lirae-value {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .lirae-values p{
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 2.3rem;
+    color: white;
+}
+
+footer .extra-info {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .extra-info img{
+    opacity: 0.5;
+}
+
+footer .extra-info p{
+    width: 40%;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
