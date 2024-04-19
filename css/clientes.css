@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+    font-family: 'century gothic';
+}
+
+main h1 {
+    font-size: 6rem;
+}
+
+main .lirae-clients-title {
+    padding: 12rem 0;
+    text-align: center;
+}
+
+main .lirae-clients-title .image-container {
+    text-align: center;
+}
+
+main .lirae-clients-title img {
+    position: relative;
+    top: 2.7rem;
+    left: 23rem;
+    width: 7rem;
+    height: auto;
+}
+
+strong {
+    color: #FCE140;
+
+}
+
+main .clients-description{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+main .clients-description p{
+    text-align: center;
+    width: 50%;
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+}
+
+main .clients-logos {
+    padding: 8rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .clients-logos .logos {
+    display: flex;
+    padding: 2.5rem 0;
+}
+
+main .first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.second-row, .third-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+strong {
+    color: #FCE140;
+}
+
+.extra-info {
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+}
