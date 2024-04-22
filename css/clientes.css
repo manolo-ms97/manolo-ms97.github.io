@@ -5,11 +5,11 @@ html {
 }
 
 main h1 {
-    font-size: 6rem;
+    font-size: 3.75rem;
 }
 
 main .lirae-clients-title {
-    padding: 12rem 0;
+    padding: 12rem 0 5rem;
     text-align: center;
 }
 
@@ -19,9 +19,9 @@ main .lirae-clients-title .image-container {
 
 main .lirae-clients-title img {
     position: relative;
-    top: 2.7rem;
-    left: 23rem;
-    width: 7rem;
+    top: 2rem;
+    left: 14rem;
+    width: 4%;
     height: auto;
 }
 
@@ -38,8 +38,8 @@ main .clients-description{
 
 main .clients-description p{
     text-align: center;
-    width: 50%;
-    font-size: 2.8rem;
+    width: 40%;
+    font-size: 1.5rem;
     line-height: 3.5rem;
 }
 
@@ -74,7 +74,11 @@ strong {
 }
 
 .extra-info {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     padding: 3rem;
+}
+
+#casa_de_julia {
+    width: 30%;
 }

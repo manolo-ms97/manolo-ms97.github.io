@@ -5,7 +5,7 @@ html {
 }
 
 main h1 {
-    font-size: 6rem;
+    font-size: 3.5rem;
 }
 
 main .contact-title {
@@ -19,9 +19,9 @@ main .contact-title .image-container {
 
 main .contact-title img {
     position: relative;
-    top: 2rem;
-    left: 11rem;
-    width: 8rem;
+    top: 1.5rem;
+    left: 6rem;
+    width: 4%;
     height: auto;
 }
 
@@ -30,7 +30,7 @@ main .contact-title img {
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
-    padding: 2.5rem 0;
+    padding: 2rem 0 0.5rem;
 }
 
 .email-data {

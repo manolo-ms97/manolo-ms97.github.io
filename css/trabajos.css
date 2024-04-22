@@ -9,12 +9,12 @@ html {
 }
 
 .social .image-container {
-    width: 40%;
+    width: 30%;
     z-index: 10;
 }
 
 .social .image-container img {
-    width: 65em;
+    width: 65rem;
     height: auto;
 }
 
@@ -22,12 +22,12 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10rem 15rem 0 0 ;
+    padding-top: 10rem;
 }
 
 .social-info h2 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .social-title-container {
@@ -38,7 +38,7 @@ html {
 
 .social-title-container img {
     width: auto;
-    height: 2rem;
+    height: 2.5rem;
 }
 
 .social-row {
@@ -69,7 +69,7 @@ strong {
 .social-info h3 {
     color: #FCE140;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .social-info p {
@@ -94,7 +94,7 @@ strong {
 }
 
 .design-title-container h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .design-title-container img {
