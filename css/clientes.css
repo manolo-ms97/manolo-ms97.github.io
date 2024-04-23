@@ -4,25 +4,27 @@ html {
     color: white;
 }
 
-main h1 {
-    font-size: 3.75rem;
-}
-
-main .lirae-clients-title {
+.lirae-clients-title {
     padding: 12rem 0 5rem;
     text-align: center;
 }
 
-main .lirae-clients-title .image-container {
+.lirae-clients-title .image-container {
     text-align: center;
 }
 
-main .lirae-clients-title img {
+.lirae-clients-title img {
     position: relative;
-    top: 2rem;
-    left: 14rem;
+    top: 3.5rem;
+    left: 13.8rem;
     width: 4%;
     height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .lirae-clients-title .image-container img{
+        display: none;
+    }
 }
 
 strong {
@@ -30,43 +32,37 @@ strong {
 
 }
 
-main .clients-description{
+.clients-description{
     display: flex;
     justify-content: center;
     color: white;
 }
 
-main .clients-description p{
+.clients-description p{
     text-align: center;
-    width: 40%;
+    width: 50%;
     font-size: 1.5rem;
-    line-height: 3.5rem;
+    line-height: 1.8rem;
 }
 
-main .clients-logos {
-    padding: 8rem 0;
+.clients-logos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
 }
 
-main .clients-logos .logos {
+.logos-row {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
     padding: 2.5rem 0;
 }
 
-main .first-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-}
-
-.second-row, .third-row{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 70%;
+.image-container {
+    padding: 1rem;
 }
 
 strong {
@@ -77,8 +73,5 @@ strong {
     font-size: 3.5rem;
     text-align: center;
     padding: 3rem;
-}
-
-#casa_de_julia {
-    width: 30%;
+    color: white;
 }
