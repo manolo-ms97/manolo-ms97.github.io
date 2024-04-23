@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Lirae - Inicio</title>
 </head>
 <body>
@@ -27,49 +30,62 @@
                 <a href="https://www.facebook.com/liraecreativomxl" target="_blank"><img class="icon" src="./elementos/FB.png" alt=""><img class="icon" src="./elementos/fb_selected.png" alt=""></a>
                 <a href="https://www.instagram.com/liraecreativo/followers/" target="_blank"><img class="icon" src="./elementos/IG.png" alt=""><img class="icon" src="./elementos/ig_selected.png" alt=""></a>
                 <a href="https://www.linkedin.com/company/lirae-creativo" target="_blank"><img class="icon" src="./elementos/In.png" alt=""><img class="icon" src="./elementos/in_selected.png" alt=""></a>
+                <nav class="nav-mobile">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="./html/nosotros.html">Nosotros</a></li>
+                        <li><a href="./html/clientes.html">Nuestros Clientes</a></li>
+                        <li><a href="./html/trabajos.html">Trabajos</a></li>
+                        <li><a href="./html/contacto.html">Contacto</a></li>
+                    </ul>
+            </nav>
             </div>
         </div>
     </header>
-
     <main>
-        <section class="motto">
-            <div>
-                <img src="./elementos/lirae_isotipo.png" alt="">
-            </div>
-            <div class="slogan">
-                <h1>
-                    <strong>"</strong>Expande tu <strong>marca</strong> <br> 
-                    a nuevos <strong>horizontes</strong>.<strong>"</strong>
-                </h1>
-            </div>
-        </section>
-        <section class="images-container">
-            <div class="image-container">
-                <img src="./mockup-portafolio-fotos/imagen_04.png" alt="">
-            </div>
-            <div class="image-container">
-                <img src="./mockup-portafolio-fotos/imagen_03.png" alt="">
-            </div>
-            <div class="image-container">
-                <img src="./mockup-portafolio-fotos/imagen_02.png" alt="">
-            </div>
-            <div class="image-container">
-                <img src="./mockup-portafolio-fotos/imagen_01.png" alt="">
-            </div>
-        </section>
+        <div class="left-margin"></div>
+        <div class="middle">
+            <section class="motto">
+                <div>
+                    <img src="./elementos/lirae_isotipo.png" alt="">
+                </div>
+                <div class="slogan">
+                    <h1>
+                        <strong>"</strong>Expande tu <strong>marca</strong> <br> 
+                        a nuevos <strong>horizontes</strong>.<strong>"</strong>
+                    </h1>
+                </div>
+            </section>
+            <section class="images-container">
+                <div class="image-container">
+                    <img src="./mockup-portafolio-fotos/imagen_04.png" alt="">
+                </div>
+                <div class="image-container">
+                    <img src="./mockup-portafolio-fotos/imagen_03.png" alt="">
+                </div>
+                <div class="image-container">
+                    <img src="./mockup-portafolio-fotos/imagen_02.png" alt="">
+                </div>
+                <div class="image-container">
+                    <img src="./mockup-portafolio-fotos/imagen_01.png" alt="">
+                </div>
+            </section>
+            <section class="logo-enfoque">
+                <div>
+                    <img src="./elementos/icono_enfoque.png" alt="">
+                </div>
+            </section>
+            <section class="logo-constelacion">
+                <div>
+                    <img src="./elementos/constelacion.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="right-margin"></div>
     </main>
     
-    <footer>
-        <section class="logo-enfoque">
-            <div>
-                <img src="./elementos/icono_enfoque.png" alt="">
-            </div>
-        </section>
-        <section class="logo-constelacion">
-            <div>
-                <img src="./elementos/constelacion.png" alt="">
-            </div>
-        </section>
-    </footer>
 </body>
 </html>

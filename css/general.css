@@ -1,0 +1,190 @@
+
+
+
+
+/*----------------------------------- body and header styling */
+
+body {
+    width: 100%;
+    background-image: url('../mockup-portafolio-fotos/Fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+header {
+    font-family: 'century gothic';
+    color: white;
+    width: 100%;
+    background-image: url('../elementos/barra_header_fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+} 
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+    
+}
+
+header .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo-desktop {
+    margin-left: 10rem;
+    padding: 1.875rem 0;
+}
+
+header nav {
+    margin-left: 15rem;
+}
+
+header nav ul {
+    display: flex;
+    font-size: 1.125rem;
+}
+
+header nav ul li {
+    margin: 0 0.2rem;
+}
+
+header nav ul li a {
+    padding: 0.5rem 1.3rem;
+}
+
+@media only screen and (max-width: 1408px) {
+
+    header .logo-desktop {
+        margin-left: 0rem;
+    }
+
+    header nav {
+        margin-left: 0rem;
+    }
+
+    header nav {
+        margin-left: 0rem;
+    }
+    
+    header nav ul li a {
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+.nav-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+
+    header .content {
+        justify-content: space-between;
+        padding: 0rem 1rem;
+    }
+
+    .nav-desktop{
+        display: none;
+    }
+    
+    .nav-mobile {
+        display: block;
+        padding-left: 1.5rem;
+    }
+
+    .dropdown-menu {
+        background-color: white;
+        width: 12rem;
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .dropdown-menu a{
+        color: black;
+        height: 100%;
+    }
+
+    .dropdown-menu a i{
+        color: black;
+        height: 100%;
+    }
+    
+}
+
+header nav .active {
+    border: solid 1px white;
+    border-radius: 31.25rem;
+    color: #FCE140;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: #FCE140;
+}
+
+header .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+header .social-media .icon {
+    padding: 0 0.5rem;
+}
+
+
+/* -------------------------------------------------------------------------------change the image of the hovered icon */
+
+
+header .social-media img:nth-child(2), img:nth-child(4), img:nth-child(6){
+    display: none;
+}
+
+header .social-media a:nth-child(1):hover img:nth-child(1){
+    display: none;
+}
+
+header .social-media a:nth-child(1):hover img:nth-child(2){
+    display: block;
+}
+
+header .social-media a:nth-child(2):hover img:nth-child(1){
+    display: none;
+}
+
+header .social-media a:nth-child(2):hover img:nth-child(2){
+    display: block;
+}
+
+header .social-media a:nth-child(3):hover img:nth-child(1){
+    display: none;
+}
+
+header .social-media a:nth-child(3):hover img:nth-child(2){
+    display: block;
+}
+
+
+/*----------------------------------- constelation logo styling */
+
+
+.logo-constelacion {
+    display: flex;
+    justify-content: end;
+    padding: 2rem 4rem 5rem 2rem;
+}
+
+.logo-constelacion img {
+    height: 8rem;
+}
+
+@media only screen and (max-width: 1408px) {
+    .logo-constelacion {
+        display: none;
+    }
+}
