@@ -17,10 +17,9 @@ header {
 
 header .content {
     display: flex;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
-    padding: 1.875rem;
+    padding: 1.5%;
 }
 
 header .logo-desktop {
