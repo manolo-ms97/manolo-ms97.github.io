@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    font-family: 'century gothic';
+    font-family: century-gothic;
     color: white;
 }
 
@@ -21,6 +21,8 @@ p {
 }
 
 
+
+
 .social {
     display: flex;
 }
@@ -33,8 +35,9 @@ p {
 .social-info {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     width: 100%;
-    padding-top: 10rem;
+    padding-top: 3.5rem;
 }
 
 .social-title-container {
@@ -46,9 +49,9 @@ p {
 .social-row {
     display: flex;
     justify-content: space-evenly;
-    height: 15rem;
-    align-items: center;
-    padding-top: 2.5rem 0;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    align-items: start;
 }
 
 .star {
@@ -88,9 +91,31 @@ strong {
 .social-logo img {
     width: 100%;
     position: relative;
-    bottom: 12rem;
+    bottom: 10rem;
 }
 
+@media only screen and (max-width: 1580px) {
+    .social-title-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1480px) {
+    .social-row {
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    .social-logo img {
+        width: 100%;
+        position: relative;
+        bottom: 6rem;
+    }
+}
 
 
 
