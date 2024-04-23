@@ -17,13 +17,6 @@ main {
     width: 100%;
 }
 
-@media only screen and (min-width: 2000px) {
-    main {
-        display: grid;
-        grid-template-columns: 0.5fr 3fr 0.5fr;
-    }
-}
-
 main strong {
     color: #FCE140;
 }

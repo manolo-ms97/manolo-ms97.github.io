@@ -22,6 +22,13 @@ header {
     background-position: top;
 } 
 
+@media only screen and (min-width: 2000px) {
+    main {
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+    }
+}
+
 h1 {
     font-size: 3.5rem;
     color: white;
