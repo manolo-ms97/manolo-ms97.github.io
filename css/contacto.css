@@ -4,10 +4,6 @@ html {
     color: white;
 }
 
-main h1 {
-    font-size: 3.5rem;
-}
-
 main .contact-title {
     padding: 5rem 0;
     text-align: center;
@@ -19,10 +15,16 @@ main .contact-title .image-container {
 
 main .contact-title img {
     position: relative;
-    top: 1.5rem;
-    left: 6rem;
+    top: 2.5rem;
+    left: 5.8rem;
     width: 4%;
     height: auto;
+}
+
+@media only screen and (max-width: 1600px) {
+    main .contact-title img{
+        display: none;
+    }
 }
 
 .email-info {
@@ -31,6 +33,7 @@ main .contact-title img {
     align-items: center;
     font-size: 1.125rem;
     padding: 2rem 0 0.5rem;
+    color: white;
 }
 
 .email-data {
@@ -48,6 +51,7 @@ main .contact-title img {
     align-items: center;
     font-size: 1.125rem;
     padding: 2.5rem 0;
+    color: white;
 }
 
 .whats-data {
@@ -57,4 +61,5 @@ main .contact-title img {
 
  .whats-data .image-container{
     padding-right: 0.5rem;
+    opacity: 0.9;
 }
