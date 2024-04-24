@@ -31,7 +31,7 @@ main .contact-title img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     padding: 2rem 0 0.5rem;
     color: white;
 }
@@ -49,7 +49,7 @@ main .contact-title img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     padding: 2.5rem 0;
     color: white;
 }
