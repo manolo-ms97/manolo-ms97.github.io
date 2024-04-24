@@ -33,6 +33,43 @@ main .motto img {
     opacity: 0.5;
 }
 
+.animate.drop { 
+    animation-name: animate-drop; 
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animate-drop {
+    0% {
+      opacity: 0;
+      transform: translate(0,-100px) scale(1, 1);
+    }
+    /* 95% {
+        opacity: 1;
+        transform: translate(0,0) scale(0.9, 1.1);
+    }
+    96% {
+        opacity: 1;
+        transform: translate(10px,0) scale(1.2, 0.9);
+    }
+    97% {
+        opacity: 1;
+        transform: translate(-10px,0) scale(1.2, 0.9);
+    }
+    98% {
+        opacity: 1;
+        transform: translate(5px,0) scale(1.1, 0.9);
+    }
+    99% {
+        opacity: 1;
+        transform: translate(-5px,0) scale(1.1, 0.9);
+    } */
+    100% {
+        opacity: 1;
+        transform: translate(0,0) scale(1, 1);
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .slogan h1{
         text-align: center;
@@ -51,6 +88,26 @@ main .image-container {
     padding: 1.5rem 0;
     width: 28rem;
 }
+
+.animate.glow {
+    animation-name: animate-glow;
+    animation-duration: 0.75s;
+    animation-delay: 0.5;
+    animation-timing-function: ease;
+}
+
+@keyframes animate-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(3) saturate(3);
+      transform: scale(0.8, 0.8);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(1) saturate(1);
+      transform: scale(1, 1);
+    }
+  }
 
 @media only screen and (min-width: 2000px) {
     main .image-container {
