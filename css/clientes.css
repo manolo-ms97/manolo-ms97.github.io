@@ -46,6 +46,10 @@ strong {
     line-height: 1.8rem;
 }
 
+.clients-logos{
+    padding: 0 7%;
+}
+
 .logos-row {
     display: flex;
     align-items: center;
