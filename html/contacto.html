@@ -50,7 +50,7 @@
 
     <main>
         <div></div>
-        <div>
+        <div class="middle">
             <section class="contact-title">
                 <div class="image-container">
                     <img src="../elementos/lirae_isotipo.png" alt="">
@@ -88,6 +88,36 @@
                     </p>
                 </div>
             </section>
+            <div class="form-container">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input id="name" type="text" class="form-control" placeholder="Tu nombre" aria-label="Nombre">
+                        </div>
+                        <div class="col">
+                            <label for="company" class="form-label">Empresa/Compañía</label>
+                            <input id="company" type="text" class="form-control" placeholder="Tu empresa/compañia" aria-label="Empresa">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="Tu email" aria-label="email">
+                        </div>
+                        <div class="col">
+                            <label for="tel" class="form-label">Teléfono/Celular</label>
+                            <input id="tel" type="number" class="form-control" placeholder="Tu teléfono/celular" aria-label="teléfono">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-12">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" placeholder="Déjanos tu mensaje aquí..." rows="3"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
             <section class="logo-constelacion">
                 <div>
                     <img src="../elementos/constelacion.png" alt="">
